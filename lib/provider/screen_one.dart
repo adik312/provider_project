@@ -25,7 +25,7 @@ class _ScreenOneState extends State<ScreenOne> {
               child: const Text('+100')),
           ElevatedButton(
               onPressed: () {
-                context.read<GreetingProvider>().increase();
+                context.read<GreetingProvider>().decrease();
               },
               child: const Text('-100'))
         ],
